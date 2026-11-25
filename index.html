@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Segredo do Vale Esquecido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tela de Capa (Landing Page) -->
+    <section id="tela-capa" class="capa-container">
+        <h1 class="capa-titulo">O Segredo do Vale Esquecido</h1>
+        <p class="capa-subtitulo">Cada escolha altera o destino da sua expedição.</p>
+        <button id="btn-iniciar" class="btn-destaque">Iniciar Aventura</button>
+    </section>
+
+    <!-- Área Principal do Jogo (inicialmente oculta) -->
+    <main id="area-jogo" class="jogo-container oculto">
+        <div class="passo ativo" id="passo-0">
+            <p>Você está diante dos portões antigos do vale. O mapa indica duas rotas possíveis. Por onde deseja começar?</p>
+            <button class="btn-proximo" data-proximo="1">Entrar pela trilha da floresta</button>
+            <button class="btn-proximo" data-proximo="2">Investigar as ruínas ao norte</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
