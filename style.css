@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #12161f;
+    color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilização da Landing Page */
+.capa-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.capa-titulo {
+    font-size: 2.5rem;
+    color: #e2b714;
+    letter-spacing: 1px;
+}
+
+.capa-subtitulo {
+    font-size: 1.1rem;
+    color: #b0b7c3;
+    margin-bottom: 1rem;
+}
+
+.btn-destaque {
+    background-color: #e2b714;
+    color: #12161f;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-destaque:hover {
+    background-color: #f5ca27;
+    transform: scale(1.05);
+}
+
+/* Controle de transição entre telas */
+.oculto {
+    display: none;
+}
+
+.jogo-container {
+    max-width: 650px;
+    padding: 2rem;
+    text-align: center;
+}
